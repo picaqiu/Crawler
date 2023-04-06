@@ -12,10 +12,19 @@
     <artifactId>crawler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>crawler</name>
+    <packaging>pom</packaging>
     <description>crawler</description>
     <properties>
         <java.version>8</java.version>
     </properties>
+    <modules>
+        <module>crawler-core</module>
+        <module>crawler-auth</module>
+        <module>crawler-gateway</module>
+        <module>crawler-mbg</module>
+        <module>crawler-monitor</module>
+        <module>crawler-search</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
